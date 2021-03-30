@@ -1,0 +1,61 @@
+.diy-main {
+    @import '@/assets/sass/ui/uiTitle.scss';
+    @import '@/assets/sass/ui/uiContent.scss';
+    @import '@/assets/sass/ui/uiBgImg.scss';
+    padding-top: 20px;
+    .title {
+        margin-bottom: 20px;
+    }
+    .h5-page {
+        width: 320px;
+        height: 500px;
+        border: 1px solid #eee;
+        .h5-page-header {
+            height: 64px;
+            width: 320px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url(https://img.yzcdn.cn/public_files/2017/12/15/21b99a4e00245cdbc09a43abb8619f33.png);
+        }
+        .main {
+            height: 436px;
+            position: relative;
+            .diy-item {
+                .relative {
+                    .el-icon-circle-close {
+                        display: none;
+                    }
+                    &:hover {
+                        border: 1px solid #38f;
+                        .el-icon-circle-close {
+                            display: block;
+                            position: absolute;
+                            right: -10px;
+                            top: -10px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .bg {
+                    height: 100%;
+                    top: 0px;
+                    width: 100%;
+                    position: absolute;
+                    .el-icon-circle-close {
+                        display: none;
+                    }
+                    &:hover {
+                        border: 1px solid #38f;
+                        .el-icon-circle-close {
+                            display: block;
+                            position: absolute;
+                            right: -10px;
+                            bottom: -10px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

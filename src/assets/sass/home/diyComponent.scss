@@ -1,0 +1,12 @@
+.diy-component {
+    padding-top: 20px;
+    .title {
+        margin-bottom: 20px;
+    }
+    .components {
+        .el-tag {
+            cursor: pointer;
+            margin: 0 15px;
+        }
+    }
+}

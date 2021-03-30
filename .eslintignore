@@ -1,0 +1,7 @@
+src/api
+src/utils
+src/mixins
+src/router/*.js
+src/main.js
+src/store/*
+src/store/*.js
